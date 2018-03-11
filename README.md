@@ -1,4 +1,5 @@
 # StudyProject
 Android Study
 
-このリポジトリをForkし、pullrequestを送ってください。
+1.このリポジトリをForkしてください。
+1.submission向けにpullrequestを送ってください。
