@@ -1,8 +1,7 @@
 
 <resources>
     <string name="app_name">StudyProject</string>
-    <string name="button1">ボタン1</string>
-    <string name="text1">ボタン1が押されました</string>
+    <string name="button1">アプリ終了</string>
     <string name="button2">ボタン2</string>
     <string name="text2">ボタン2が押されました</string>
 </resources>
