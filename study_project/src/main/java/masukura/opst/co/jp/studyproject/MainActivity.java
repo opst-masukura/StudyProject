@@ -1,5 +1,7 @@
 package masukura.opst.co.jp.studyproject;
 
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -17,7 +19,17 @@ public class MainActivity extends AppCompatActivity {
 		Button button1 = findViewById(R.id.button1);
 		button1.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View view) {
-				finish();
+				new AlertDialog.Builder(MainActivity.this)
+						.setTitle(R.string.title)
+						.setMessage(R.string.message)
+						.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								finish();
+							}
+						})
+						.setNegativeButton(R.string.cancel, null)
+						.show();
 			}
 		});
 		Button button2 = findViewById(R.id.button2);

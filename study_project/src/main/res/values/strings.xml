@@ -4,4 +4,8 @@
     <string name="button1">アプリ終了</string>
     <string name="button2">ボタン2</string>
     <string name="text2">ボタン2が押されました</string>
+    <string name="title">終了確認</string>
+    <string name="message">終了しますがよろしいですか？</string>
+    <string name="ok">OK</string>
+    <string name= "cancel">Cancel</string>
 </resources>
