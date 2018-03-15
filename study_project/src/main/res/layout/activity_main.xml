@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context="masukura.opst.co.jp.studyproject.MainActivity">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-
+        android:id="@+id/button1"
+        android:text="@string/button1" />
 </FrameLayout>
