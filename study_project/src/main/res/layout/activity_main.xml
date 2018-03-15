@@ -11,4 +11,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:text="@string/button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button2" />
 </FrameLayout>
